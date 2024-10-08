@@ -1,0 +1,85 @@
+/* kolory do zmiany */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: lightgray;
+}
+
+header {
+    background-color: lightskyblue;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+.intro {
+    background: url('baner.jpg') no-repeat center center/cover; 
+    /* baner do zrobienia */
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 3rem;
+}
+
+.home, .about, .blog {
+    background-color: white;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+article h3 {
+    color: lightskyblue;
+}
+
+article p {
+    color: #555;
+}
+
+article a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+footer {
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
