@@ -9,11 +9,11 @@
     <meta name="author" content="Bartłomiej Piotrowicz, Łukasz Bury">
     <meta name="robots" content="noindex, unfollow">
     <link rel="stylesheet" href="styles.css">
-    <title>Podróże</title>
+    <title>Z Plecakiem po Świecie</title>
 </head>
 <header>
-    <nav>
-        <h1>Blog Podróże</h1>
+    <nav class="navbar">
+        <h1>Z Plecakiem po Świecie</h1>
         <ul>
             <li><a href="index.html">Główna</a></li>
             <li><a href="about.html">O mnie</a></li>
@@ -25,15 +25,30 @@
     <main>
         <section class="home">
             <div class="intro">
-                <h2>Witamy na blogu o podróżach</h2>
-                <p>Odkryj piękne miejsca na całym świecie!</p>
+                <h2>Witamy na "Z Plecakiem po Świecie"</h2>
+                <p>Odkryj piękne miejsca na całej planecie!</p>
             </div>
         </section>
+        <section class="contact">
+            <h3>Skontaktuj się z nami</h3>
+            <form action="mailto:info@podmienic.com" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
     </main>
+
     <footer>
         <p>Copyright &copy; 2024 podmienic. Wszelkie prawa zastrzeżone.</p>
         <p>Kontakt: <a href="mailto:info@podmienic.com">info@podmienic.com</a></p>
-        <!-- Mail do wymyslenia -->
     </footer>
 </body>
 </html>

@@ -1,28 +1,36 @@
-/* kolory do zmiany */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: lightgray;
+    background-color: #F0F0F0; 
+    color: #555555; 
+    padding: 0 20px;
 }
 
 header {
-    background-color: lightskyblue;
-    color: white;
+    background-color: #A7C7E7; 
+    color: #FFFFFF; 
     padding: 1rem 0;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
-nav ul {
+.navbar ul {
     list-style: none;
 }
 
-nav ul li {
+.navbar ul li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: white;
+.navbar ul li a {
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
 }
@@ -33,11 +41,14 @@ h1 {
 
 section {
     padding: 2rem;
+    background-color: #FADADD; 
+    margin: 1rem 0;
+    border-radius: 10px;
 }
 
 .intro {
-    background: url('baner.jpg') no-repeat center center/cover; 
-    /* baner do zrobienia */
+    background: url('baner.jpg') no-repeat center center/cover;
+    /* baner do dodania */
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -47,39 +58,42 @@ section {
     font-size: 3rem;
 }
 
-.home, .about, .blog {
-    background-color: white;
-    margin: 2rem 0;
-    padding: 2rem;
-    border-radius: 10px;
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-article {
-    margin-bottom: 2rem;
+.contact input, .contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-article h3 {
-    color: lightskyblue;
+.contact button {
+    background-color: #A3D9B1; 
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-article p {
-    color: #555;
-}
-
-article a {
-    color: #008cba;
-    text-decoration: none;
+.contact button:hover {
+    background-color: #88C1A1;
 }
 
 footer {
-    background-color: lightskyblue;
-    color: white;
+    background-color: #C4A3E9; 
+    color: #FFFFFF; 
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
 }
 
 footer a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 }
